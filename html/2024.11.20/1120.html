@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ch26.html</title>
+</head>
+<body>
+<p>Math.random()將回傳0和1之間的隨機數</p>
+<p id="ex1"></p>
+<p id="ex2">small</p>
+<script>
+    var ranData;
+    ranData = Math.random();
+    document.getElementById("ex1").innerHTML = "Random Number is = " + ranData;
+    if ( ranData > 0.5 ) {
+        document.getElementById("ex2").innerHTML = "Big"
+    }
+</script>
+</body>
+</html>
