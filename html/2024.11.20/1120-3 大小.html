@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ch26_15.html</title> 
+</head>
+<body>
+<script>
+    var puzzle = Math.round(Math.random()*50+1);    //隨機亂數
+    var numInput = window.prompt("請輸入0-50數字","");
+
+    do {
+        if (Number(numInput) > puzzle) {
+        window.alert("請猜小一點");
+        numInput = window.prompt("請輸入0-50數字","");
+        } else {
+        window.alert("請猜大一點");
+        numInput = window.prompt("請輸入0-50數字","");
+        }
+        
+    } while (Number (numInput) !== puzzle)
+    window.alert("恭喜!答對了");
+</script>
+</body>
+</html>
