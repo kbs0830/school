@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>卡皮巴拉餐飲中心</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #00CED1;
+    color: #00008B;
+    padding: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+nav {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+nav li:hover {
+    background-color: #00008B;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+[class*="col-"] {
+    padding: 15px;
+    flex: 1;
+}
+.col-15 {
+    flex: 15%;
+}
+.col-30 {
+    flex: 30%;
+}
+.col-50 {
+    flex: 50%;
+}
+.col-75 {
+    flex: 75%;
+}
+.col-100 {
+    flex: 100%;
+}
+aside {
+    background-color: #4682B4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+}
+footer {
+    background-color: lightgray;
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+</style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li>首頁</li>
+        <li>菜單</li>
+        <li>關於我們</li>
+        <li>聯絡我們</li>
+    </ul>
+</nav>
+<header>
+    <h1>卡皮巴拉餐飲中心</h1>`
+    <p>歡迎來到卡皮巴拉餐飲中心，我們是一家矚目的美食聖地，專注於提供獨特、美味的料理體驗。讓我們為您介紹一下我們的特色：</p>
+</header>
+<div class="row">
+    <aside class="col-15 col-s-25 menu">
+        <ul>
+            <li>酸菜魚</li>
+            <li>清燉雞湯</li>
+            <li>飲料</li>
+            <li>千層蛋糕</li>
+        </ul>
+    </aside>
+    <article class="col-50 col-s-75">
+        <h1>餐廳宗旨</h1>
+        <img src="main.jpg" alt="Main Dish">
+        <p>無論您是想品嚐正宗的酸菜魚，或者只是想沉浸在千層的甜蜜之中，皮皮餐飲中心都是您的最佳選擇。歡迎您隨時光臨，讓我們為您帶來美味的一餐！😊</p>
+    </article>
+    <div class="col-30 col-s-100">
+        <aside>
+            <h2>酸菜魚狂歡</h2>
+            <p>透過自家改良與自製酸菜，我們將酸菜魚研發成最適合台灣人的口味。不僅份量十足，還有中盛、大盛及特大盛三種選擇，讓您隨心所欲享受這道開胃美食。</p>
+            <h2>皮皮手做千層</h2>
+            <p>皮皮手作千層是我們的招牌甜點，每層都經過精心製作，口感層次豐富。</p>
+        </aside>
+    </div>
+</div>
+<footer>
+    <p>地址：824高雄市燕巢區深中路58號</p>
+</footer>
+</body>
+</html>
